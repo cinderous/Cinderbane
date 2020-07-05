@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "cinderbane:blocks/cinderbane_leaves"
+  }
+}

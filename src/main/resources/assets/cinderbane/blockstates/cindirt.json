@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cinderbane:block/cindirt"
+      },
+      {
+        "model": "cinderbane:block/cindirt",
+        "y": 90
+      },
+      {
+        "model": "cinderbane:block/cindirt",
+        "y": 180
+      },
+      {
+        "model": "cinderbane:block/cindirt",
+        "y": 270
+      }
+    ]
+  }
+}

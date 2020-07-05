@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "cinderbane:blocks/cindirt_grass_block_top",
+    "bottom": "cinderbane:blocks/cindirt",
+    "side": "cinderbane:blocks/cindirt_grass_block_snow",
+    "particle": "cinderbane:blocks/cindirt"
+  }
+}

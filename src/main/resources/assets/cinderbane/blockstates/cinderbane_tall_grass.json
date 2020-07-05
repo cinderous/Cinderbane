@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "cinderbane:block/cinderbane_tall_grass_bottom" },
+    "half=upper":    { "model": "cinderbane:block/cinderbane_tall_grass_top" }
+  }
+}
