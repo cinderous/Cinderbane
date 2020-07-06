@@ -1,5 +1,6 @@
 package net.cinderous.cinderbane;
 
+import net.cinderous.cinderbane.events.ClientEvents;
 import net.cinderous.cinderbane.util.CinderbaneRegistry;
 import net.cinderous.cinderbane.world.CinderbaneWorldType;
 import net.minecraft.entity.EntityClassification;
@@ -47,7 +48,7 @@ public class Cinderbane
 
         // Register ourselves for server and other game events we are interested in
         CinderbaneRegistry.init();
-
+        MinecraftForge.EVENT_BUS.register(new ClientEvents());
         MinecraftForge.EVENT_BUS.register(this);
     }
 

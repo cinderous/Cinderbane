@@ -2,9 +2,15 @@ package net.cinderous.cinderbane.util;
 
 import net.cinderous.cinderbane.Cinderbane;
 import net.cinderous.cinderbane.client.entity.model.render.CinderlingRender;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.tags.FluidTags;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.client.event.EntityViewRenderEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -25,4 +31,6 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(CinderbaneRegistry.CINDERBANE_TALL_GRASS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(CinderbaneRegistry.CINDERBANE_LEAVES.get(), RenderType.getCutout());
     }
+
+
 }

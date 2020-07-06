@@ -4,6 +4,7 @@ import net.cinderous.cinderbane.Cinderbane;
 import net.cinderous.cinderbane.block.*;
 import net.cinderous.cinderbane.entity.Cinderling;
 import net.cinderous.cinderbane.item.CinderbanePortalItem;
+import net.cinderous.cinderbane.item.CinderbanePortalItemOld;
 import net.cinderous.cinderbane.tileentity.CinderspookTreeBuilderTileEntity;
 import net.cinderous.cinderbane.world.CinderbaneAbyss;
 
@@ -21,10 +22,7 @@ import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntityType;
-import net.minecraft.util.RegistryKey;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.world.Dimension;
-import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.gen.feature.Feature;
@@ -38,8 +36,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
-
-import java.rmi.registry.Registry;
 
 @Mod.EventBusSubscriber(modid = Cinderbane.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CinderbaneRegistry
